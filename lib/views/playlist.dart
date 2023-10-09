@@ -55,7 +55,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Create Playlist'),
+          title: Text('Playlist'),
           content: TextFormField(
             decoration: InputDecoration(labelText: 'Playlist Name'),
             onChanged: (value) {
